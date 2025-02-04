@@ -75,26 +75,28 @@ body {
 }
 
 /* Hero Section */
-.hero {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background: linear-gradient(135deg, #6c5ce7, #a8c0ff);
-    color: white;
-    padding: 0 1rem;
-}
+/* ?.hero {
+?    height: 100vh;
+?   display: flex;
+?    align-items: center;
+?    justify-content: center;
+?    text-align: start;
+?    background: linear-gradient(135deg, #6c5ce7, #a8c0ff);
+?    color: white;
+?    padding: 0 1rem;
+?}*/
 
-.hero-content h1 {
+/* .hero-content h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
-}
+} */
 
+/* 
 .hero-content p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
-}
+} */
+
 
 /* Sections Common Styles */
 section {
