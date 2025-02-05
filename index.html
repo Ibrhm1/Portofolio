@@ -43,8 +43,8 @@
     </section>
 
     <!-- About Me Section -->
-    <section id="about" class="about-me h-screen animate-in">
-        <h2 class="font-bold text-5xl mb-8">About Me</h2>
+    <section id="about" class="about-me md:h-screen animate-in">
+        <h2 class="font-bold text-4xl mb-8">About Me</h2>
         <div class="features-grid">
             <div class="feature-card">
                 <i class="fas fa-rocket"></i>
@@ -71,7 +71,7 @@
 
     <!-- Assigment Section -->
     <section id="assigment" class="services animate-in">
-        <h2 class="font-bold text-5xl mb-8">My Assigment</h2>
+        <h2 class="font-bold text-4xl mb-8">My Assigment</h2>
         <div class="services-grid animate-in">
             <div class="service-card">
                 <img src="asset/1.png" alt="assigment 1" class="object-cover md:object-top hover:object-center transition-all duration-500 ease-in-out">
@@ -84,7 +84,7 @@
                 <img src="asset/2.png" alt="assigment 2" class="object-cover object-top hover:object-center transition-all duration-500 ease-in-out">
                 <h3 class="font-bold text-xl">Sudoku</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos rem maxime voluptatum labore alias architecto accusamus placeat soluta, ipsa natus.</p>
-                <a href="https://ibrhm1.github.io/Sudoku/Main.html" class="service-btn " target="_blank">Kunjungi Website</a>
+                <a href="https://ibrhm1.github.io/Sudoku/Main.html" class="service-btn" target="_blank">Kunjungi Website</a>
                 <a href="https://github.com/Ibrhm1/Sudoku" class="text-2xl align-middle" target="_blank"><i class="fa-solid fa-code"></i></a>
             </div>
         </div>
@@ -92,7 +92,7 @@
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
-        <h2 class="font-bold text-4xl mb-8">Contact Us</h2>
+        <h2 class="font-bold text-4xl mb-8">Contact</h2>
         <div class="contact-content">
             <div class="contact-info">
                 <div class="contact-item">
@@ -100,20 +100,17 @@
                     <p>Bekasi Utara, Jawa Barat</p>
                 </div>
                 <div class="contact-item">
-                    <i class="fas fa-phone"></i>
-                    <p>+1 234 567 890</p>
-                </div>
-                <div class="contact-item">
-                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:iibibrahim2201@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
                     <a href="mailto:iibibrahim2201@gmail.com">iibibrahim2201@gmail.com</a>
-                    
                 </div>
             </div>
             <form>
-                <input type="text" placeholder="Name" required>
-                <input type="email" placeholder="Email" required>
-                <textarea placeholder="Message" required></textarea>
-                <button type="submit" class="cta-button">Send Message</button>
+                <input type="text" placeholder="Name" required class="px-2 text-sm items-center">
+                <input type="email" placeholder="Email" required class="px-2 text-sm items-center">
+                <textarea placeholder="Message" required class="px-2 text-sm items-center"></textarea>
+                <button type="submit" class="cta-button w-20">Send</button>
             </form>
         </div>
     </section>
@@ -129,7 +126,7 @@
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#assigment">Assigmnet</a></li>
+                    <li><a href="#assigment">Assigment</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
