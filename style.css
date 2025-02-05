@@ -378,6 +378,14 @@ footer {
     to { transform: translateY(0); opacity: 1; }
 }
 
+@keyframes img-logo {
+    from { transform: translateX(50px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+.img-logo {
+    animation: img-logo 0.9s ease-in-out;
+}
 /* Animasi Slide-down */
 .slide-up {
     animation: slideUp 0.7s ease-in-out;
