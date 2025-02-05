@@ -247,29 +247,7 @@ footer {
     gap: 2rem;
     margin-bottom: 2rem;
 }
-
-.footer-section h4 {
-    margin-bottom: 1rem;
-}
-
-.footer-section ul {
-    list-style: none;
-}
-
-.footer-section ul li {
-    margin-bottom: 0.5rem;
-}
-
-.footer-section a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.footer-section a:hover {
-    color: #3498db;
-}
-
+/* !!!
 .social-links {
     display: flex;
     gap: 1rem;
