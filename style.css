@@ -12,6 +12,7 @@ body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     color: #333;
+    animation: fadeIn 1s ease-in-out;
 }
 
 /* Navbar Styles */
@@ -377,12 +378,8 @@ footer {
     to { transform: translateY(0); opacity: 1; }
 }
 
-/* Terapkan ke elemen */
-.fade-in {
-    animation: fadeIn 1s ease-in-out;
-}
-
+/* Animasi Slide-down */
 .slide-up {
-    animation: slideUp 1s ease-in-out;
+    animation: slideUp 0.7s ease-in-out;
 }
 
