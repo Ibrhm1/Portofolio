@@ -41,7 +41,7 @@ body {
 .name-logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #3498db;
+    color: #163b53;
 }
 
 .nav-menu {
@@ -52,13 +52,13 @@ body {
 
 .nav-link {
     text-decoration: none;
-    color: #2c3e50;
+    color: #1b2733;
     font-weight: 500;
     transition: color 0.3s ease;
 }
 
 .nav-link:hover {
-    color: #3498db;
+    color: #D0B8A8;
 }
 
 .hamburger {
@@ -76,28 +76,6 @@ body {
 }
 
 /* Hero Section */
-/* ?.hero {
-?    height: 100vh;
-?   display: flex;
-?    align-items: center;
-?    justify-content: center;
-?    text-align: start;
-?    background: linear-gradient(135deg, #6c5ce7, #a8c0ff);
-?    color: white;
-?    padding: 0 1rem;
-?}*/
-
-/* .hero-content h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-} */
-
-/* 
-.hero-content p {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-} */
-
 
 /* Sections Common Styles */
 section {
@@ -240,18 +218,18 @@ textarea {
 }
 
 .cta-button {
-    background-color: #3498db;
+    background-color: #778695;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     text-decoration: none;
     display: inline-block;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease-out;
 }
 
 .cta-button:hover {
-    background-color: #2980b9;
+    background-color: #4d5b69;
 }
 
 /* Footer */
@@ -366,6 +344,35 @@ footer {
     }
 }
 
+
+/* animasi logo */
+.img-logo {
+    animation: img-logo 0.9s ease-in-out;
+}
+/* Animasi Slide-down */
+.slide-up {
+    animation: slideUp 0.7s ease-in-out;
+}
+
+/* animasi section assigment */
+.animate-in {
+    animation: animate-in ease-out 0.5s;
+    animation-timeline: view();
+    animation-range: entry 1%;
+}
+
+/* animasi muncul */
+@keyframes animate-in {
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
 /* Animasi Fade-in */
 @keyframes fadeIn {
     from { opacity: 0; }
@@ -378,16 +385,8 @@ footer {
     to { transform: translateY(0); opacity: 1; }
 }
 
+/* animasi logo */
 @keyframes img-logo {
     from { transform: translateX(50px); opacity: 0; }
     to { transform: translateX(0); opacity: 1; }
 }
-
-.img-logo {
-    animation: img-logo 0.9s ease-in-out;
-}
-/* Animasi Slide-down */
-.slide-up {
-    animation: slideUp 0.7s ease-in-out;
-}
-
