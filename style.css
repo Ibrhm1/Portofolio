@@ -247,7 +247,7 @@ footer {
     gap: 2rem;
     margin-bottom: 2rem;
 }
-/* !!!
+/* 
 .social-links {
     display: flex;
     gap: 1rem;
@@ -268,7 +268,7 @@ footer {
     padding-top: 2rem;
     border-top: 1px solid rgba(255,255,255,0.1);
 }
-
+ */
 /* Responsive Design */
 @media (max-width: 768px) {
     .hamburger {
