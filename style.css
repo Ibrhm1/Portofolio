@@ -236,7 +236,7 @@ textarea {
 footer {
     background-color: #2c3e50;
     color: white;
-    padding: 3rem 2rem 1rem;
+    padding-top: 1.5rem;
 }
 
 .footer-content {
@@ -330,25 +330,6 @@ footer {
 /* Animasi Slide-down */
 .slide-up {
     animation: slideUp 0.7s ease-in-out;
-}
-
-/* animasi section assigment */
-.animate-in {
-    animation: animate-in ease-out 0.5s;
-    animation-timeline: view();
-    animation-range: entry 1%;
-}
-
-/* animasi muncul */
-@keyframes animate-in {
-    0% {
-        opacity: 0;
-        transform: translateY(50%);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
 }
 
 /* Animasi Fade-in */
