@@ -196,7 +196,6 @@ h2 {
 
 .contact-item i {
     font-size: 1.5rem;
-    color: #778695;
 }
 
 form {
@@ -247,28 +246,7 @@ footer {
     gap: 2rem;
     margin-bottom: 2rem;
 }
-/* 
-.social-links {
-    display: flex;
-    gap: 1rem;
-}
 
-.social-links a {
-    color: white;
-    font-size: 1.5rem;
-    transition: color 0.3s ease;
-}
-
-.social-links a:hover {
-    color: #3498db;
-}
-
-.footer-bottom {
-    text-align: center;
-    padding-top: 2rem;
-    border-top: 1px solid rgba(255,255,255,0.1);
-}
- */
 /* Responsive Design */
 @media (max-width: 768px) {
     .hamburger {
