@@ -87,7 +87,7 @@ h2 {
     font-size: 2.5rem;
 }
 
-/* Features Section */
+/* About Me Section */
 .features-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -105,13 +105,9 @@ h2 {
     transition: transform 0.3s ease;
 }
 
-.feature-card:hover {
-    transform: translateY(-5px);
-}
-
 .feature-card i {
     font-size: 2.5rem;
-    color: #3498db;
+    color: #778695;
     margin-bottom: 1rem;
 }
 
